@@ -11,6 +11,8 @@
 5.	Test allowed access.  
 6.	Test denied access.  
 
+------------------------------------------------
+
 ## Lab 1 - S3 Read-Only Access  
 <br>
 
@@ -26,6 +28,7 @@ Try creating or deleting something. It should fail.
 Capture the Access Denied result.  
 <br>
 
+------------------------------------------------
 **Step 01 - Create group: S3ReadOnlyGroup**     
 IAM  
 IAM user groups > Create group  
@@ -87,28 +90,32 @@ Select: group - **s3-readonlygroup** > Next > Review details > Create user
 <br>
 <br>
 
------
+------------------------------------------------
 
 ## For Practice  
 
 ## Lab 2 - EC2 Read-Only Access  
-Create:  
+**Create:**  
 •	Group: EC2ReadOnlyGroup  
 •	Policy: AmazonEC2ReadOnlyAccess  
 •	User: learner-ec2  
 
-Test:  
+**Test:**  
 •	Sign in as learner-ec2.  
 •	Confirm the user can open the EC2 dashboard.  
 •	Confirm the user cannot create or terminate instances.  
 <br>
+<br>
+
+-----------------------------------
 
 ## Lab 3 - Billing Read-Only Access  
-Create:  
+**Create:**  
 •	Group: BillingViewGroup  
 •	Policy: AWSBillingReadOnlyAccess  
 •	User: learner-billing  
-Test:  
+
+**Test:**  
 •	Sign in as learner-billing.  
 •	Confirm the user can view the Billing Dashboard.  
 •	Confirm the user cannot manage unrelated AWS services.  
