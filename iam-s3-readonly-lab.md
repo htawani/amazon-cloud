@@ -11,7 +11,7 @@
 5.	Test allowed access.  
 6.	Test denied access.  
 
-**Lab 1 - S3 Read-Only Access**
+## Lab 1 - S3 Read-Only Access  
 <br>
 
 **Create:**  
